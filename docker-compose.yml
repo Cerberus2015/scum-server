@@ -1,0 +1,6 @@
+api:
+  build: .
+  links:
+    - db
+db:
+  image: rethinkdb
