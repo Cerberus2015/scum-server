@@ -1,0 +1,9 @@
+.git
+node_modules
+doc
+.yardoc
+tmp
+log
+README.md
+.DS_Store
+.env
