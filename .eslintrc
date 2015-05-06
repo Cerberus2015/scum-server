@@ -2,7 +2,11 @@
   "ecmaFeatures": {
     "modules": true
   },
+  "globals": {
+    "assert": true
+  },
   "env": {
+    "mocha": true,
     "browser": false,
     "node": true,
     "es6": true
