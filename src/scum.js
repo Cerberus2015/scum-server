@@ -1,2 +1,3 @@
+import config from "./config";
 
-console.log("Hello scum");
+console.log("Hello, scum!", config);
