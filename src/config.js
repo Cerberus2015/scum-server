@@ -1,4 +1,7 @@
 import Comfy from "comfy";
+import Dotenv from "dotenv";
+
+Dotenv.load();
 
 let config = Comfy.build((c) => {
   // Use comfy to build configuration object, for example:
