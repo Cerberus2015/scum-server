@@ -5,4 +5,4 @@ ADD . /scum
 WORKDIR /scum
 
 RUN npm install
-CMD ["npm start"];
+CMD ["npm", "start"]

@@ -3,5 +3,7 @@ api:
   env_file: .env
   links:
     - db
+redis:
+  image: redis:latest
 db:
-  image: rethinkdb
+  image: rethinkdb:latest
