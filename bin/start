@@ -1,0 +1,9 @@
+#!/bin/bash
+
+COMMAND="node_modules/.bin/babel-node lib/server.js"
+
+if [ "$RACK_ENV" == "development" ]; then
+  ./node_modules/.bin/nodemon --exec "$COMMAND | node_modules/.bin/bunyan -o short"
+else
+  $COMMAND
+fi
