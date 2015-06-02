@@ -1,3 +1,3 @@
-# scum-api
+# scum-server
 
 :saxophone::turtle:
