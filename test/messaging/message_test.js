@@ -14,8 +14,6 @@ describe("Message", () => {
     });
   });
 
-
-
   describe("#hasData", () => {
     var messageWithData = new Message({
       action: "test:action",
