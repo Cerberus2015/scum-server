@@ -3,6 +3,8 @@ api:
   env_file: .env
   links:
     - db
+  ports:
+    - "8000:8000"
 redis:
   image: redis:latest
 db:
