@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "bin/start",
-    "test": "NODE_ENV=test node_modules/.bin/mocha"
+    "test": "NODE_ENV=test node_modules/.bin/mocha test/**/*"
   },
   "devDependencies": {
     "mocha": "^2.2.4",
